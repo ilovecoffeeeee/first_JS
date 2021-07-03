@@ -1,11 +1,17 @@
-// const title = document.querySelector(".hello h1")
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
+const link = document.querySelector("a");
 
-const h1 = document.querySelector(".hello:first-child h1")
 
-console.dir(h1);
-
-function handleTitleClick() {
-    h1.classList.toggle("clicked");
+function onLoginSubmit(event) {
+    event.preventDefault();
+    console.log(loginInput.value);
 }
 
-h1.addEventListener("click", handleTitleClick);
+function handleLinkClick(event) {
+    event.preventDefault();
+    console.dir(event);
+}
+
+loginForm.addEventListener("submit", onLoginSubmit);
+link.addEventListener("click", handleLinkClick);
