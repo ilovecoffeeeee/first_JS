@@ -19,7 +19,7 @@ const colors = [
     "#ff3f34"
   ];
 
-const chosenColors = colors[Math.floor(Math.random() * images.length)];
+const chosenColors = colors[Math.floor(Math.random() * colors.length)];
 
 bgColors.src = `${chosenColor}`;
 
