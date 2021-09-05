@@ -49,20 +49,27 @@ body {
 
 #andrea {
   margin-top: 30px;
+  font-size: 40px;
+}
+
+#quote,
+#quote2 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
 }
 
 #andrea,
 #greeting,
 #weather,
-#quote,
-#quote2,
 .left_time,
 .right_date {
   text-align: center;
 }
 
 #weather span {
-  font-size: 30px;
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 .my_board {
@@ -119,6 +126,12 @@ body {
 
 #todo-form input:focus {
   border-color: rebeccapurple;
+}
+
+.todoLine {
+  margin-left: 32px;
+  line-height: 30%;
+  font-size: 120%;
 }
 
 .hidden {
