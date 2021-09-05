@@ -59,9 +59,13 @@ body {
   text-align: center;
 }
 
+#weather {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 #andrea,
 #greeting,
-#weather,
 .left_time,
 .right_date {
   text-align: center;
@@ -106,7 +110,14 @@ body {
   width: 600px;
 }
 
+#login-form {
+  margin-top: 30px;
+  margin-left: 140px;
+  font-size: 60;
+}
+
 #todo-form {
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
