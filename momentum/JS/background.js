@@ -5,11 +5,16 @@ const images = [
     "3.png",
 ];
 
-const chosenColors = colors[Math.floor(Math.random() * colors.length)];
+const chosenImage = images[Math.floor(Math.random() * images.length)];
+const backgroundImage = document.querySelector("#picture img");
 
-const bgImage = document.createElement("img");
+function changePictures() {
+    const chosenImage = images[Math.floor(Math.random() * images.length)];
+    backgroundImage.src = `img/${chosenImage}`;
+}
 
-bgImage.src = `img/${chosenImage}`;
+changePictures()
+setInterval(changePictures, 5000);
 
-document.body.appendChild(bgImage);
+
 

@@ -41,10 +41,10 @@ const quotes = [
     },
 ];
 
-const quote = document.querySelector("#quote span:first-child");
-const author = document.querySelector("#quote span:last-child");
+const quote = document.querySelector("#quote h3");
+const author = document.querySelector("#quote2 h3");
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-quote.innerText = todaysQuote.quotes;
-author.innerText = todaysQuote.author;
+quote.innerText = `"${todaysQuote.quotes}" 랴교`;
+author.innerText = `${todaysQuote.author} 어룬이 그랬여요!`;  
