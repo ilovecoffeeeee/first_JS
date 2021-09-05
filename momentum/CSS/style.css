@@ -64,8 +64,12 @@ body {
   text-align: center;
 }
 
+#greeting {
+  font-size: 24;
+  text-align: center;
+}
+
 #andrea,
-#greeting,
 .left_time,
 .right_date {
   text-align: center;
