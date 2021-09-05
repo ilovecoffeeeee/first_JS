@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum</title>
+</head>
+<body>
+    <div class="moving_part">
+        <div class="left_side">
+            <div class="left_time">
+                <div class="left_time__hours">
+                    <h2 id="hours">00</h2>
+                </div>
+                <div class="left_time__minutes">
+                    <h2 id="minutes">00</h2>
+                </div>
+                <div class="left_time__seconds">
+                    <h2 id="seconds">00</h2>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div id="picture">
+                <img src=""/>
+            </div>
+            <div>
+                <h1 id="andrea">What is your name?</h1>
+            </div>
+            <div id="quote">
+                <h3></h3>
+            </div>
+            <div id="quote2">
+                <h3></h3>
+            </div>
+        </div>
+        <div class="right_side">
+            <div class="right_date">
+                <div class="right_date__month">
+                    <h2 id="month">00</h2>
+                </div>
+                <div class="right_date__date">
+                    <h2 id="date">00</h2>
+                </div>
+                <div class="right_date__day">
+                    <h2 id="day">00</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="my_board">
+        <div class="my_board__left">
+            <h2></h2>
+        </div>
+        <div class="borad_center">
+            <div id="weather">
+                <span>오늘 날씨이느은 어때요오?</span>
+                <span></span>
+                <span></span>
+            </div>
+                <form id="login-form" class="hidden">
+                    <input required maxlength="15" type="text" placeholder="What is your name?" />
+                    <input type="submit" value="Log In" />
+                </form>
+                <h1 id="greeting" class="hidden"></h1>
+                <form id="todo-form">
+                    <input type="text" placeholder="Write a To Do and Press Enter" />
+                </form>
+                <ul id="todo-list">
+                </ul>
+            </div>
+        <div class="my_board__right">
+            <h2></h2>
+        </div>
+    </div>
+    <script src="JS/greeting.js"></script>
+    <script src="JS/clock.js"></script>
+    <script src="JS/quotes.js"></script>
+    <script src="JS/background.js"></script>
+    <script src="JS/todo.js"></script>
+    <script src="JS/weather.js"></script>
+</body>
+</html>

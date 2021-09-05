@@ -1,0 +1,154 @@
+@import "reset.css";
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: -3;
+  color: #2e363e;
+  font-family: "Open Sans", sans-serif;
+}
+
+.moving_part {
+  width: 100%;
+  display: flex;
+}
+
+.left_side {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 33%;
+  font-size: 100px;
+}
+
+.right_side {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 33%;
+  font-size: 100px;
+}
+
+.left_time__minutes,
+.left_time__seconds {
+  margin-top: 150px;
+}
+
+.right_date__date,
+.right_date__day {
+  margin-top: 150px;
+}
+
+#andrea {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+#quote,
+#quote2 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#weather {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#greeting {
+  font-size: 24;
+  text-align: center;
+}
+
+#andrea,
+.left_time,
+.right_date {
+  text-align: center;
+}
+
+#weather span {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.my_board {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.borad_center {
+  width: 600px;
+}
+
+#todo-form {
+  display: flex;
+  text-align: left;
+}
+
+.my_board__left,
+.my_board__right {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 33%;
+  font-size: 80px;
+}
+
+#picture {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 600px;
+}
+
+#login-form {
+  margin-top: 30px;
+  margin-left: 140px;
+  font-size: 60;
+}
+
+#todo-form {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#todo-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+#todo-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  transition: border-color 0.3s ease-in-out;
+}
+
+#todo-form input:focus {
+  border-color: rebeccapurple;
+}
+
+.todoLine {
+  margin-left: 32px;
+  line-height: 30%;
+  font-size: 120%;
+}
+
+.hidden {
+  display: none;
+}
