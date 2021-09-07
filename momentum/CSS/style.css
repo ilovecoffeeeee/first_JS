@@ -1,7 +1,56 @@
+@import "reset.css";
+
+@keyframes cycle {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
 body {
   font-size: 12px;
+  background-color: tomato;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+
+#todo-list span {
+  margin-left: 2px;
+}
+
+#todo-list button {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: tomato;
+  transform: rotateZ(180deg);
+  transition: ease-out;
+  animation: cycle 7s infinite;
+}
+
+#todo-list button:last-child {
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: tomato;
 }
 
 .hidden {
   display: none;
+}
+
+.font_green {
+  display: flex;
+  color: green;
+  align-items: center;
 }
